@@ -30,5 +30,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, Galeria::class.java)
             startActivity(intent)
         }
+        val buttonClick5 = findViewById<Button>(R.id.btnTamanoTexto)
+        buttonClick5.setOnClickListener {
+            val intent = Intent(this, AumentarTexto::class.java)
+            startActivity(intent)
+        }
     }
 }
