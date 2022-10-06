@@ -20,5 +20,15 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, Colores::class.java)
             startActivity(intent)
         }
+        val buttonClick3 = findViewById<Button>(R.id.btnAlinear)
+        buttonClick3.setOnClickListener {
+            val intent = Intent(this, AlinearTexto::class.java)
+            startActivity(intent)
+        }
+        val buttonClick4 = findViewById<Button>(R.id.btnGaleria)
+        buttonClick4.setOnClickListener {
+            val intent = Intent(this, Galeria::class.java)
+            startActivity(intent)
+        }
     }
 }

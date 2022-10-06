@@ -28,7 +28,7 @@ class Calculadora : AppCompatActivity() {
 
         val n1 = findViewById<EditText>(R.id.tbN1)
         val n2 = findViewById<EditText>(R.id.tbN2)
-        val suma = n1.toString().toInt()+ n2.toString().toInt()
+        val suma = Integer.parseInt(n1.text.toString())+Integer.parseInt(n2.text.toString())
         val resultado =  findViewById<TextView>(R.id.tResultado)
 
         resultado.text = suma.toString()
