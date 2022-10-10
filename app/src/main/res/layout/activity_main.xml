@@ -6,18 +6,30 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu principal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.094" />
+
     <Button
         android:id="@+id/btnCalculadora"
         style="@style/Widget.Material3.Button.UnelevatedButton"
         android:layout_width="175dp"
         android:layout_height="48dp"
-        android:layout_marginTop="92dp"
+        android:layout_marginTop="36dp"
         android:fontFamily="sans-serif"
         android:text="Calculadora"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
         android:id="@+id/btnColorTexto"
@@ -37,13 +49,13 @@
         style="@style/Widget.Material3.Button.UnelevatedButton"
         android:layout_width="175dp"
         android:layout_height="48dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="12dp"
         android:fontFamily="sans-serif"
         android:text="CambiarTexto"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnTamanoTexto" />
+        app:layout_constraintTop_toBottomOf="@+id/btnImagen" />
 
     <Button
         android:id="@+id/btnImagen"
@@ -56,7 +68,7 @@
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnGaleria" />
+        app:layout_constraintTop_toBottomOf="@+id/btnTamanoTexto" />
 
     <Button
         android:id="@+id/btnGaleria"
@@ -69,32 +81,32 @@
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnColorTexto" />
+        app:layout_constraintTop_toBottomOf="@+id/btnAlinear" />
 
     <Button
         android:id="@+id/btnTamanoTexto"
         style="@style/Widget.Material3.Button.UnelevatedButton"
         android:layout_width="175dp"
         android:layout_height="48dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="12dp"
         android:fontFamily="sans-serif"
-        android:text="TamañoTexto"
+        android:text="TamanoTexto"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnAlinear" />
+        app:layout_constraintTop_toBottomOf="@+id/btnGaleria" />
 
     <Button
         android:id="@+id/btnAlinear"
         style="@style/Widget.Material3.Button.UnelevatedButton"
         android:layout_width="175dp"
         android:layout_height="48dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="12dp"
         android:fontFamily="sans-serif"
         android:text="AlinearTexto"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnImagen" />
+        app:layout_constraintTop_toBottomOf="@+id/btnColorTexto" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

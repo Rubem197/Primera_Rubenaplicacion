@@ -35,5 +35,17 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, AumentarTexto::class.java)
             startActivity(intent)
         }
+        val buttonClick6 = findViewById<Button>(R.id.btnImagen)
+        buttonClick6.setOnClickListener {
+            val intent = Intent(this, PulsarImagen::class.java)
+            startActivity(intent)
+        }
+        val buttonClick7 = findViewById<Button>(R.id.btnCambiarTexto)
+        buttonClick7.setOnClickListener {
+            val intent = Intent(this, CambiarTexto::class.java)
+            startActivity(intent)
+        }
+
+
     }
 }

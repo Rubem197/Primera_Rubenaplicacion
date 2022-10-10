@@ -17,6 +17,12 @@
             android:name=".AumentarTexto"
             android:exported="false" />
         <activity
+            android:name=".CambiarTexto"
+            android:exported="false" />
+        <activity
+            android:name=".PulsarImagen"
+            android:exported="false" />
+        <activity
             android:name=".Galeria"
             android:exported="false" />
         <activity

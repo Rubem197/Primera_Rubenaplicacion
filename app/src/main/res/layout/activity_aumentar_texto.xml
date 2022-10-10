@@ -7,38 +7,37 @@
     tools:context=".AumentarTexto">
 
     <EditText
-        android:id="@+id/ptTextoTamaño"
+        android:id="@+id/ptTextoTamano"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="68dp"
+        android:layout_marginStart="100dp"
         android:layout_marginTop="88dp"
         android:ems="10"
+        android:hint="Escribe aqui"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="SpeakableTextPresentCheck" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btnAumentarTamaño"
+        android:id="@+id/btnAumentarTamano"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="72dp"
-        android:layout_marginEnd="88dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="76dp"
         android:onClick="aumentarTamano"
         android:text="+"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ptTextoTamaño" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btnDisminuirTamaño"
+        android:id="@+id/btnDisminuirTamano"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="68dp"
-        android:layout_marginTop="72dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="208dp"
         android:onClick="disminuirTamano"
         android:text="-"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ptTextoTamaño" />
-
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
