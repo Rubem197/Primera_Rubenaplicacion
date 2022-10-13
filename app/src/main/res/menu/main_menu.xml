@@ -22,5 +22,14 @@
         android:id="opcTamanotexto"
         android:title="Tamaño Texto"
         />
+    <item
+        android:id="opcImagen"
+        android:title="Pulsar Imagen"
+        />
+    <item
+        android:id="opcCambiarTexto"
+        android:title="Cambiar Texto"
+        />
+
 
 </menu>
