@@ -10,103 +10,33 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Menu principal"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="87dp"
+        android:layout_marginEnd="177dp"
+        android:text="Menu Principal"
+        android:textColor="#5BCCB5"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:fontFamily="serif-monospace"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="177dp"
+        android:fontFamily="serif-monospace"
+        android:text="Pulsa los tres puntos de arriba a la derecha para seleccionar una opcion"
+        android:textAlignment="center"
+        android:textColor="#5BCCB5"
+        android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.094" />
-
-    <Button
-        android:id="@+id/btnCalculadora"
-        style="@style/Widget.Material3.Button.UnelevatedButton"
-        android:layout_width="175dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="36dp"
-        android:fontFamily="sans-serif"
-        android:text="Calculadora"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
-
-    <Button
-        android:id="@+id/btnColorTexto"
-        style="@style/Widget.Material3.Button.UnelevatedButton"
-        android:layout_width="175dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="12dp"
-        android:fontFamily="sans-serif"
-        android:text="Colores"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnCalculadora" />
-
-    <Button
-        android:id="@+id/btnCambiarTexto"
-        style="@style/Widget.Material3.Button.UnelevatedButton"
-        android:layout_width="175dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="12dp"
-        android:fontFamily="sans-serif"
-        android:text="CambiarTexto"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnImagen" />
-
-    <Button
-        android:id="@+id/btnImagen"
-        style="@style/Widget.Material3.Button.UnelevatedButton"
-        android:layout_width="175dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="12dp"
-        android:fontFamily="sans-serif"
-        android:text="Imagen"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnTamanoTexto" />
-
-    <Button
-        android:id="@+id/btnGaleria"
-        style="@style/Widget.Material3.Button.UnelevatedButton"
-        android:layout_width="175dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="12dp"
-        android:fontFamily="sans-serif"
-        android:text="Galeria"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnAlinear" />
-
-    <Button
-        android:id="@+id/btnTamanoTexto"
-        style="@style/Widget.Material3.Button.UnelevatedButton"
-        android:layout_width="175dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="12dp"
-        android:fontFamily="sans-serif"
-        android:text="TamanoTexto"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnGaleria" />
-
-    <Button
-        android:id="@+id/btnAlinear"
-        style="@style/Widget.Material3.Button.UnelevatedButton"
-        android:layout_width="175dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="12dp"
-        android:fontFamily="sans-serif"
-        android:text="AlinearTexto"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnColorTexto" />
-
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

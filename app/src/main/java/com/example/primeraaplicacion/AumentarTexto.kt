@@ -9,6 +9,7 @@ class AumentarTexto : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_aumentar_texto)
+        supportActionBar?.hide()
     }
 
     fun disminuirTamano(view: View){

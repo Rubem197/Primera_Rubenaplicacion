@@ -15,6 +15,7 @@ class Galeria : AppCompatActivity() {
         setContentView(R.layout.activity_galeria)
         val imagen2 = findViewById<ImageView>(R.id.imagen2)
         imagen2.visibility = View.INVISIBLE
+        supportActionBar?.hide()
     }
 
 

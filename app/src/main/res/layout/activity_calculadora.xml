@@ -8,13 +8,34 @@
 
     <Button
         android:id="@+id/btnSalir"
-        android:layout_width="79dp"
-        android:layout_height="55dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="29dp"
-        android:text="Salir"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="82dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#71E8D0"
+        android:text="Volver"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnSumar"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="82dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#71E8D0"
+        android:text="Sumar"
+        android:onClick="sumar"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tbN2" />
 
     <TextView
         android:id="@+id/tvPrimerNumero"
@@ -61,23 +82,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tbN1" />
 
-    <Button
-        android:id="@+id/btnSumar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:layout_marginEnd="152dp"
-        android:onClick="sumar"
-        android:text="Sumar"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tbN2" />
-
     <TextView
         android:id="@+id/tResultado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="192dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginStart="188dp"
+        android:layout_marginTop="28dp"
         android:text="0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnSumar" />

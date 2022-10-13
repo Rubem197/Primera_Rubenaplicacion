@@ -3,31 +3,31 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="opcCalculadora"
+        android:id="@+id/opcCalculadora"
         android:title="Calculadora"
     />
     <item
-        android:id="opcColores"
+        android:id="@+id/opcColores"
         android:title="Colores"
     />
     <item
-        android:id="opcAlinearTexto"
+        android:id="@+id/opcAlinearTexto"
         android:title="Alinear Texto"
     />
     <item
-        android:id="opcGaleria"
+        android:id="@+id/opcGaleria"
         android:title="Galeria"
     />
     <item
-        android:id="opcTamanotexto"
+        android:id="@+id/opcTamanotexto"
         android:title="Tamaño Texto"
         />
     <item
-        android:id="opcImagen"
+        android:id="@+id/opcImagen"
         android:title="Pulsar Imagen"
         />
     <item
-        android:id="opcCambiarTexto"
+        android:id="@+id/opcCambiarTexto"
         android:title="Cambiar Texto"
         />
 
