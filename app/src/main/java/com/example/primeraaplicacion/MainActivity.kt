@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
                 true
             }
             R.id.opcTamanotexto -> {
-                TamañoTextos(null)
+                AumentarTextos(null)
                 true
             }
             R.id.opcImagen -> {
@@ -83,7 +83,7 @@ class MainActivity : AppCompatActivity() {
         startActivity(opcMenu)
     }
 
-    fun TamañoTextos(view: View?){
+    fun AumentarTextos(view: View?){
 
         val opcMenu = Intent(this, AumentarTexto:: class.java).apply {  }
         startActivity(opcMenu)

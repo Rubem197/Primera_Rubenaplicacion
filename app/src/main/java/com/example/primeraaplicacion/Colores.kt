@@ -6,7 +6,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
-import android.widget.EditText
 import android.widget.TextView
 
 class Colores : AppCompatActivity() {
@@ -15,7 +14,7 @@ class Colores : AppCompatActivity() {
         setContentView(R.layout.activity_colores)
         supportActionBar?.hide()
 
-        val buttonClick = findViewById<Button>(R.id.btnSalir)
+        val buttonClick = findViewById<Button>(R.id.btnSalir7)
         buttonClick.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)

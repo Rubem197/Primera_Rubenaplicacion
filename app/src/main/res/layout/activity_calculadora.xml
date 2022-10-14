@@ -7,11 +7,11 @@
     tools:context=".Calculadora">
 
     <Button
-        android:id="@+id/btnSalir"
+        android:id="@+id/btnSalir7"
         style="@style/Widget.Material3.Button"
         android:layout_width="82dp"
         android:layout_height="48dp"
-        android:layout_marginStart="20dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:backgroundTint="#71E8D0"
         android:text="Volver"
@@ -26,14 +26,15 @@
         style="@style/Widget.Material3.Button"
         android:layout_width="82dp"
         android:layout_height="48dp"
-        android:layout_marginStart="152dp"
         android:layout_marginTop="16dp"
         android:backgroundTint="#71E8D0"
-        android:text="Sumar"
         android:onClick="sumar"
+        android:text="Sumar"
         android:textColor="#FFFFFF"
         android:textSize="10sp"
         android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tbN2" />
 
@@ -41,9 +42,10 @@
         android:id="@+id/tvPrimerNumero"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="104dp"
         android:layout_marginTop="156dp"
         android:text="Intruduce el primer numero"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.443"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -52,21 +54,22 @@
         android:layout_width="197dp"
         android:layout_height="48dp"
         android:layout_marginTop="184dp"
-        android:layout_marginEnd="96dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="0"
+        android:text=""
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="DuplicateSpeakableTextCheck" />
+        tools:ignore="DuplicateSpeakableTextCheck,SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/tvSegundoNumero"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="104dp"
         android:layout_marginTop="116dp"
         android:text="Intruduce el primer numero"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.443"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvPrimerNumero" />
 
@@ -75,20 +78,21 @@
         android:layout_width="197dp"
         android:layout_height="48dp"
         android:layout_marginTop="84dp"
-        android:layout_marginEnd="96dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="0"
+        android:text=""
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tbN1" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tbN1"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/tResultado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="188dp"
         android:layout_marginTop="28dp"
         android:text="0"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnSumar" />
 </androidx.constraintlayout.widget.ConstraintLayout>

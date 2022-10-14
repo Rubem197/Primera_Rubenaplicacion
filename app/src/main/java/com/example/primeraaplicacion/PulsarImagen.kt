@@ -1,8 +1,10 @@
 package com.example.primeraaplicacion
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.widget.Button
 import android.widget.ImageView
 
 class PulsarImagen : AppCompatActivity() {
@@ -11,6 +13,14 @@ class PulsarImagen : AppCompatActivity() {
         setContentView(R.layout.activity_pulsar_imagen)
         val imagen2 = findViewById<ImageView>(R.id.imgBoton2)
         imagen2.visibility = View.INVISIBLE
+        supportActionBar?.hide()
+
+        val buttonClick = findViewById<Button>(R.id.btnSalir7)
+        buttonClick.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+
+        }
     }
 
     fun anteriorImg(view: View){

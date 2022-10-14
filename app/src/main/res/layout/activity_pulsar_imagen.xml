@@ -7,10 +7,25 @@
     android:layout_height="match_parent"
     tools:context=".PulsarImagen">
 
+    <Button
+        android:id="@+id/btnSalir7"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="82dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#71E8D0"
+        android:text="Volver"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <ImageButton
         android:id="@+id/imgBoton1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="167dp"
+        android:layout_height="160dp"
         android:layout_marginStart="116dp"
         android:layout_marginTop="120dp"
         android:contentDescription="@string/app_name"
@@ -22,8 +37,8 @@
 
     <ImageButton
         android:id="@+id/imgBoton2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="167dp"
+        android:layout_height="160dp"
         android:layout_marginStart="116dp"
         android:layout_marginTop="120dp"
         android:contentDescription="@string/app_name"

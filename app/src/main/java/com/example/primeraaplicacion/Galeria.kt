@@ -1,12 +1,10 @@
 package com.example.primeraaplicacion
 
-import android.annotation.SuppressLint
-import android.media.Image
-import android.opengl.Visibility
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import android.widget.EditText
+import android.widget.Button
 import android.widget.ImageView
 
 class Galeria : AppCompatActivity() {
@@ -16,6 +14,13 @@ class Galeria : AppCompatActivity() {
         val imagen2 = findViewById<ImageView>(R.id.imagen2)
         imagen2.visibility = View.INVISIBLE
         supportActionBar?.hide()
+
+        val buttonClick = findViewById<Button>(R.id.btnSalir7)
+        buttonClick.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+
+        }
     }
 
 

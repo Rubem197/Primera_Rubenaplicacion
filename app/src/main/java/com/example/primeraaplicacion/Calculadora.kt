@@ -15,7 +15,7 @@ class Calculadora : AppCompatActivity() {
         supportActionBar?.hide()
 
 
-        val buttonClick = findViewById<Button>(R.id.btnSalir)
+        val buttonClick = findViewById<Button>(R.id.btnSalir7)
         buttonClick.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
